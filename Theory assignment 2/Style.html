@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
-    <link rel="stylesheet" href="../styles/content.css">
+    <link rel="stylesheet" href="../styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
@@ -15,15 +15,15 @@
             <form id="contactForm">
                 <div class="field name">
                     <input type="text" name="name" id="name" placeholder="Your Name">
-                    <span class="error" style="display:none; color:red;">Name is required</span>
+                    <span class="error">Name is required</span>
                 </div>
                 <div class="field email">
                     <input type="email" name="email" id="email" placeholder="Your Email">
-                    <span class="error" style="display:none; color:red;">Email is required</span>
+                    <span class="error">Email is required</span>
                 </div>
                 <div class="field message">
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
-                    <span class="error" style="display:none; color:red;">Message is required</span>
+                    <span class="error">Message is required</span>
                 </div>
                 <input type="submit" value="Submit">
             </form>
